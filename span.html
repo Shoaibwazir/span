@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #ecefec;
+        }
+        .center{
+            position: absolute;
+            margin: auto;
+            left: 0%;
+            top: 0%;
+            bottom: 0%;
+            right: 0%;
+            width: 250px;
+            height: 250px;
+            background-color: #42a542;
+            box-shadow: 0px 0px 50px 3px #000;
+        }
+        span{
+            left: 10px;
+            top: 10px;
+            box-shadow: 0px 0px 25px #000;
+        }
+        span:nth-child(1){
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background-color: #00ca00;
+            left: 6%;
+            top: 6%;
+            animation: ani 3s infinite;
+            animation-delay: 0.3s;
+        }
+        span:nth-child(2){
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background-color: #fbff08;
+            left: 10%;
+            top: 10%;
+            animation: ani 3s infinite;
+            animation-delay: 0.4s;
+        }
+        span:nth-child(3){
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background-color: #ca008d;
+            left: 14%;
+            top: 14%;
+            animation: ani 3s infinite;
+            animation-delay: 0.5s;
+        }
+        span:nth-child(4){
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background-color: #00ca00;
+            left: 14%;
+            top: 14%;
+            animation: ani 3s infinite;
+            animation-delay: 0.5s;
+        }
+        span:nth-child(5){
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background-color: #470ceb;
+            left: 22%;
+            top: 22%;
+            animation: ani 3s infinite;
+            animation-delay: 0.6s;
+        }
+        span:nth-child(6){
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background-color: #00ca00;
+            left: 26%;
+            top: 26%;
+            animation: ani 3s infinite;
+            animation-delay: 0.7s;
+        }
+        span:nth-child(7){
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background-color: #ff0f07;
+            left: 30%;
+            top: 30%;
+            animation: ani 3s infinite;
+            animation-delay: 0.8s;
+        }
+        @keyframes ani {
+            0%{
+                transition: 0.7s;
+                transform: rotate(0deg);
+            }
+            20%{
+                transition: 0.7s;
+                transform: rotate(95deg);
+            }
+            50%{
+                transition: 0.7s;
+                transform: rotate(360deg);
+            }
+            100%{
+                transition: 0.7s;
+                transform: rotate(0deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>
